@@ -178,7 +178,8 @@ public class ServiceComponent extends AbstractComponent {
             }
         }
 
-        SofaLogger.info("Register Service - {0}", service);
+        System.out.println("Register Service test - " + service);
+        SofaLogger.info("Register Service test - {0}", service);
     }
 
     @Override

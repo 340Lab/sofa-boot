@@ -25,7 +25,7 @@ import org.springframework.core.PriorityOrdered;
 /**
  * @author qilong.zql
  * @author khotyn
- * @since  2.5.0
+ * @since 2.5.0
  */
 public class SofaRuntimeContextAwareProcessor implements BeanPostProcessor, PriorityOrdered {
     private SofaRuntimeContext sofaRuntimeContext;
@@ -47,6 +47,7 @@ public class SofaRuntimeContextAwareProcessor implements BeanPostProcessor, Prio
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName)
                                                                               throws BeansException {
+
         return bean;
     }
 
